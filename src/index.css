@@ -31,7 +31,7 @@
   }
 
   .img-contaier{
-    margin-top: 110px;
+    margin-top: 55px;
     display: flex;
     position: relative;
     top:-190px;
@@ -42,7 +42,17 @@
  width: 100%;
  
  }
- 
+ .mobile-contaier1{
+    display: flex;
+    /* background-color: aqua; */
+    position: absolute;
+    top:900px;
+    right:200px;
+    height: 900px;
+   
+  }
+
+
  .mobile-contaier{
    display: flex;
    /* background-color: aqua; */
@@ -115,7 +125,6 @@
    
  }
 
- 
 .container{
   
     position: absolute;
@@ -143,6 +152,7 @@
     font-size: 18px;
     width: 190px;
     z-index: 10000;
+    margin-left: 20px;
   } 
   
 .-mt-5{
@@ -151,3 +161,17 @@
     display: flex;
     width: 100%;
 }
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-ease-in {
+    animation: fadeIn ease-in 1s; /* Apply animation with 3s duration and ease-in timing function */
+  }
